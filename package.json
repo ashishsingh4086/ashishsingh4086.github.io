@@ -1,0 +1,48 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshishSingha/AshishSingha.github.io.git"
+  },
+  "author": "Ashish Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshishSingha/AshishSingha.github.io/issues"
+  },
+  "homepage": "https://github.com/AshishSingha/AshishSingha.github.io#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-demo": "^2.0.0",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
